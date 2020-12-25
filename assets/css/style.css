@@ -1,0 +1,54 @@
+body{
+	margin:0px;
+}
+*{
+	font-family: 'Poppins', sans-serif;
+}
+button{
+	border:none !important;
+	background: #f8c237 !important;
+	color:white !important;
+}
+button:focus{
+	border:none;
+	box-shadow: none !important;
+}
+/*Header section*/
+
+.dm-header-top{
+	padding: 10px 20px;
+	background: #31353d;
+}
+.dm-header-top a{
+	color: white;
+    font-size: 14px;
+}
+.dm-header-top span,.dm-header-top ion-icon{
+	color: white;
+    font-size: 16px;
+}
+ul.dm-header-top-social-wrapper{
+	padding: 0px;
+	margin:0px;
+}
+ul.dm-header-top-social-wrapper li{
+	display: inline;
+	margin: 0px 10px;
+}
+/*.dm-header-bottom{
+	padding: 0px 50px;
+}*/
+li.nav-item {
+    margin: 0px 15px;
+}
+li.nav-item a {
+    padding: 32px;
+    color: #31353d !important;
+    font-weight: 500;
+}
+.dm-header-bottom-quote-btn{
+	padding: 20px 30px;
+    line-height: 8px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
